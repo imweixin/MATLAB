@@ -1,0 +1,1107 @@
+edit .gitattributes
+load 'mymat'
+load mymat
+diary off
+load('mymat.mat')
+load('mymat.mat')
+open mymat.mat
+ans = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          ans: [1×1 struct]
+       mytext: 'Accelerating the pace of engineering and science'
+    oldFolder: 'D:\Program Files\MATLAB\R2017a\bin'
+open mymat
+[X,Y] = ndgrid(1:2:19,2:2:12)
+X =
+     1     1     1     1     1     1
+     3     3     3     3     3     3
+     5     5     5     5     5     5
+     7     7     7     7     7     7
+     9     9     9     9     9     9
+    11    11    11    11    11    11
+    13    13    13    13    13    13
+    15    15    15    15    15    15
+    17    17    17    17    17    17
+    19    19    19    19    19    19
+Y =
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+     2     4     6     8    10    12
+[U,V] = meshgrid(1:2:19,2:2:12)
+U =
+     1     3     5     7     9    11    13    15    17    19
+     1     3     5     7     9    11    13    15    17    19
+     1     3     5     7     9    11    13    15    17    19
+     1     3     5     7     9    11    13    15    17    19
+     1     3     5     7     9    11    13    15    17    19
+     1     3     5     7     9    11    13    15    17    19
+V =
+     2     2     2     2     2     2     2     2     2     2
+     4     4     4     4     4     4     4     4     4     4
+     6     6     6     6     6     6     6     6     6     6
+     8     8     8     8     8     8     8     8     8     8
+    10    10    10    10    10    10    10    10    10    10
+    12    12    12    12    12    12    12    12    12    12
+save mymat
+ones(2,3)
+ans =
+     1     1     1
+     1     1     1
+magic(4)
+ans =
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+B=ans
+B =
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+B'
+ans =
+    16     5     9     4
+     2    11     7    14
+     3    10     6    15
+    13     8    12     1
+B.'
+ans =
+    16     5     9     4
+     2    11     7    14
+     3    10     6    15
+    13     8    12     1
+transpose(B)
+ans =
+    16     5     9     4
+     2    11     7    14
+     3    10     6    15
+    13     8    12     1
+B
+B =
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+xlswrite('test.xlsx',X)
+doc 'prod'
+doc 'numel'
+dairy off
+{Undefined function or variable 'dairy'.} 
+diary off
+[3;2,4]
+{Dimensions of matrices being concatenated are not consistent.} 
+diary off
+ones(4,5)*6
+ans =
+     6     6     6     6     6
+     6     6     6     6     6
+     6     6     6     6     6
+     6     6     6     6     6
+ones(4,5).*6
+ans =
+     6     6     6     6     6
+     6     6     6     6     6
+     6     6     6     6     6
+     6     6     6     6     6
+doc 'sub2ind'
+issorted(ans,descend'
+ issorted(ans,descend'
+                      ↑
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+issorted(ans,'descend')
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   1
+helpPopup logical
+sortrows(magic(4))
+ans =
+     4    14    15     1
+     5    11    10     8
+     9     7     6    12
+    16     2     3    13
+A=ones(5)
+A =
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+tril(A)
+ans =
+     1     0     0     0     0
+     1     1     0     0     0
+     1     1     1     0     0
+     1     1     1     1     0
+     1     1     1     1     1
+tril(A,0)
+ans =
+     1     0     0     0     0
+     1     1     0     0     0
+     1     1     1     0     0
+     1     1     1     1     0
+     1     1     1     1     1
+tril(A,-1)
+ans =
+     0     0     0     0     0
+     1     0     0     0     0
+     1     1     0     0     0
+     1     1     1     0     0
+     1     1     1     1     0
+doc 'any'
+attributes=whos('ans')
+attributes = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          name: 'ans'
+          size: [5 5]
+         bytes: 200
+         class: 'double'
+        global: 0
+        sparse: 0
+       complex: 0
+       nesting: [1×1 struct]
+    persistent: 0
+save one.mat
+attributes.name
+ans =
+    'ans'
+eps(5)
+ans =
+   8.8818e-16
+currentCharacterEncoding = slCharacterEncoding()
+currentCharacterEncoding =
+    'GBK'
+这个
+ 这个
+ ↑
+{错误: 输入字符不是 MATLAB 语句或表达式中的有效字符。
+} 
+1+啊
+ 1+啊
+   ↑
+{错误: 输入字符不是 MATLAB 语句或表达式中的有效字符。
+} 
+display(你好)
+ display(你好)
+         ↑
+{Error: The input character is not valid in MATLAB statements or expressions.
+} 
+拟合
+ 拟合
+ ↑
+{Error: The input character is not valid in MATLAB statements or expressions.
+} 
+disp('这个')
+这个
+a=ones(4);
+b=a*4
+b =
+     4     4     4     4
+     4     4     4     4
+     4     4     4     4
+     4     4     4     4
+b=a*b
+b =
+    16    16    16    16
+    16    16    16    16
+    16    16    16    16
+    16    16    16    16
+b=a*4
+b =
+     4     4     4     4
+     4     4     4     4
+     4     4     4     4
+     4     4     4     4
+c=a*b
+c =
+    16    16    16    16
+    16    16    16    16
+    16    16    16    16
+    16    16    16    16
+1234567
+ans =
+     1234567
+c(4,1)=ans
+c =
+          16          16          16          16
+          16          16          16          16
+          16          16          16          16
+     1234567          16          16          16
+magic(4)
+ans =
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+magic(4)
+ans =
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+ans(17)=2
+{Attempt to grow array along ambiguous dimension.} 
+ans(4,7)=17
+ans =
+    16     2     3    13     0     0     0
+     5    11    10     8     0     0     0
+     9     7     6    12     0     0     0
+     4    14    15     1     0     0    17
+numel(ans)
+ans =
+    28
+doc abs
+doc find
+ans(find(ans>4))
+ans =
+    28
+magic(4)(find(ans>4))
+{Error: ()-indexing must appear last in an index expression.} 
+c(find(ans>4))
+ans =
+    16
+c(find(c>4))
+ans =
+          16
+          16
+          16
+     1234567
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+          16
+char(32+128)
+ans =
+    '?'
+char(F+128)
+{Undefined function or variable 'F'.} 
+char('F'+128)
+ans =
+    '?'
+doc pascal
+magic(3)-[1,2,3]
+ans =
+     7    -1     3
+     2     3     4
+     3     7    -1
+eye(2,3)
+ans =
+     1     0     0
+     0     1     0
+doc repelm
+ver
+----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.2.0.538062 (R2017a)
+MATLAB License Number: 123456
+Operating System: Microsoft Windows 8.1 中文版 Version 6.3 (Build 9600)
+Java Version: Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 9.2         (R2017a)
+Simulink                                              Version 8.9         (R2017a)
+Aerospace Blockset                                    Version 3.19        (R2017a)
+Aerospace Toolbox                                     Version 2.19        (R2017a)
+Antenna Toolbox                                       Version 2.2         (R2017a)
+Audio System Toolbox                                  Version 1.2         (R2017a)
+Automated Driving System Toolbox                      Version 1.0         (R2017a)
+Bioinformatics Toolbox                                Version 4.8         (R2017a)
+Communications System Toolbox                         Version 6.4         (R2017a)
+Computer Vision System Toolbox                        Version 7.3         (R2017a)
+Control System Toolbox                                Version 10.2        (R2017a)
+Curve Fitting Toolbox                                 Version 3.5.5       (R2017a)
+DO Qualification Kit                                  Version 3.3         (R2017a)
+DSP System Toolbox                                    Version 9.4         (R2017a)
+Data Acquisition Toolbox                              Version 3.11        (R2017a)
+Database Toolbox                                      Version 7.1         (R2017a)
+Datafeed Toolbox                                      Version 5.5         (R2017a)
+Econometrics Toolbox                                  Version 4.0         (R2017a)
+Embedded Coder                                        Version 6.12        (R2017a)
+Filter Design HDL Coder                               Version 3.1.1       (R2017a)
+Financial Instruments Toolbox                         Version 2.5         (R2017a)
+Financial Toolbox                                     Version 5.9         (R2017a)
+Fixed-Point Designer                                  Version 5.4         (R2017a)
+Fuzzy Logic Toolbox                                   Version 2.2.25      (R2017a)
+Global Optimization Toolbox                           Version 3.4.2       (R2017a)
+HDL Coder                                             Version 3.10        (R2017a)
+HDL Verifier                                          Version 5.2         (R2017a)
+IEC Certification Kit                                 Version 3.9         (R2017a)
+Image Acquisition Toolbox                             Version 5.2         (R2017a)
+Image Processing Toolbox                              Version 10.0        (R2017a)
+Instrument Control Toolbox                            Version 3.11        (R2017a)
+LTE System Toolbox                                    Version 2.4         (R2017a)
+MATLAB Coder                                          Version 3.3         (R2017a)
+MATLAB Compiler                                       Version 6.4         (R2017a)
+MATLAB Compiler SDK                                   Version 6.3.1       (R2017a)
+MATLAB Distributed Computing Server                   Version 6.10        (R2017a)
+MATLAB Report Generator                               Version 5.2         (R2017a)
+Mapping Toolbox                                       Version 4.5         (R2017a)
+Model Predictive Control Toolbox                      Version 5.2.2       (R2017a)
+Model-Based Calibration Toolbox                       Version 5.2.1       (R2017a)
+Neural Network Toolbox                                Version 10.0        (R2017a)
+OPC Toolbox                                           Version 4.0.3       (R2017a)
+Optimization Toolbox                                  Version 7.6         (R2017a)
+Parallel Computing Toolbox                            Version 6.10        (R2017a)
+Partial Differential Equation Toolbox                 Version 2.4         (R2017a)
+Phased Array System Toolbox                           Version 3.4         (R2017a)
+Polyspace Bug Finder                                  Version 2.3         (R2017a)
+Polyspace Code Prover                                 Version 9.7         (R2017a)
+Powertrain Blockset                                   Version 1.1         (R2017a)
+RF Blockset                                           Version 6.0         (R2017a)
+RF Blockset                                           Version 6.0         (R2017a)
+RF Toolbox                                            Version 3.2         (R2017a)
+Risk Management Toolbox                               Version 1.1         (R2017a)
+Robotics System Toolbox                               Version 1.4         (R2017a)
+Robust Control Toolbox                                Version 6.3         (R2017a)
+Signal Processing Toolbox                             Version 7.4         (R2017a)
+SimBiology                                            Version 5.6         (R2017a)
+SimEvents                                             Version 5.2         (R2017a)
+Simscape                                              Version 4.2         (R2017a)
+Simscape Driveline                                    Version 2.12        (R2017a)
+Simscape Electronics                                  Version 2.11        (R2017a)
+Simscape Fluids                                       Version 2.2         (R2017a)
+Simscape Multibody                                    Version 5.0         (R2017a)
+Simscape Power Systems                                Version 6.7         (R2017a)
+Simulink 3D Animation                                 Version 7.7         (R2017a)
+Simulink Code Inspector                               Version 3.0         (R2017a)
+Simulink Coder                                        Version 8.12        (R2017a)
+Simulink Control Design                               Version 4.5         (R2017a)
+Simulink Design Optimization                          Version 3.2         (R2017a)
+Simulink Design Verifier                              Version 3.3         (R2017a)
+Simulink Desktop Real-Time                            Version 5.4         (R2017a)
+Simulink PLC Coder                                    Version 2.3         (R2017a)
+Simulink Real-Time                                    Version 6.6         (R2017a)
+Simulink Report Generator                             Version 5.2         (R2017a)
+Simulink Test                                         Version 2.2         (R2017a)
+Simulink Verification and Validation                  Version 3.13        (R2017a)
+Spreadsheet Link                                      Version 3.3.1       (R2017a)
+Stateflow                                             Version 8.9         (R2017a)
+Statistics and Machine Learning Toolbox               Version 11.1        (R2017a)
+Symbolic Math Toolbox                                 Version 7.2         (R2017a)
+System Identification Toolbox                         Version 9.6         (R2017a)
+Trading Toolbox                                       Version 3.2         (R2017a)
+Vehicle Network Toolbox                               Version 3.3         (R2017a)
+Vision HDL Toolbox                                    Version 1.4         (R2017a)
+WLAN System Toolbox                                   Version 1.3         (R2017a)
+Wavelet Toolbox                                       Version 4.18        (R2017a)
+minus(1,1)
+ans =
+     0
+plus(1,2,3)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Too many input arguments.} 
+plus(1,2)
+ans =
+     3
+power(1,2)
+ans =
+     1
+round(-3.5)
+ans =
+    -4
+int8(3.5)
+ans =
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+   4
+int8(-3.5)
+ans =
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+   -4
+uint8(-3.5)
+ans =
+  <a href="matlab:helpPopup uint8" style="font-weight:bold">uint8</a>
+   0
+doc rdivide
+doc mrdivide
+doc mldivide
+mymat
+edit poisson
+poisson(1,2,3)
+ans =
+     6
+prompt = 'What is the original value? ';
+x = input(prompt)
+What is the original value? 23
+x =
+    23
+y = x*10
+y =
+   230
+mymat
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,17)">File: mymat.m Line: 5 Column: 17
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+opentoline('D:\Cache\Github\MATLAB\mymat.m',5,17)
+opentoline('D:\Cache\Github\MATLAB\mymat.m',5,17)
+mymat
+请1
+输
+入
+
+clear
+mymat
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 4)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',4,0)">line 4</a>)
+Dimensions of matrices being concatenated are not consistent.} 
+matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 4)
+opentoline('D:\Cache\Github\MATLAB\mymat.m',4,0)
+mymat
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',4,45)">File: mymat.m Line: 4 Column: 45
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+mymat
+请请请1
+输输输1
+入入入1
+mymat
+请1
+请1
+请1
+mymat
+请1
+请1
+请1
+1
+ans =
+     1
+mymat
+prompt =
+  3×11 <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+    '请输入各瓶子最大容量 '
+    '请输入各瓶子当前装酒量'
+    '请输入各瓶子分酒量  '
+prompt(1)
+ans =
+    '请'
+prompt(1,:)
+ans =
+    '请输入各瓶子最大容量 '
+mymat
+prompt =
+  3×11 <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+    '请输入各瓶子最大容量 '
+    '请输入各瓶子当前装酒量'
+    '请输入各瓶子分酒量  '
+请输入各瓶子最大容量 12 8 5
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+Error: Unexpected MATLAB expression.} 
+mymat
+请输入各瓶子最大容量 [12 8 5]
+请输入各瓶子当前装酒量[12 0 0]
+请输入各瓶子分酒量  [6 6 0]
+mymat
+请输入各瓶子最大容量
+ {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)} 
+mymat
+请输入各瓶子最大容量
+ {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)} 
+mymat
+path =
+    30    14     5
+mymat
+{Undefined function or variable 'a'.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)">line 3</a>)
+max=a(:)
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 8)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',8,0)">line 8</a>)
+path=poisson(max,from,to)} 
+matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)
+poisson
+{Not enough input arguments.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)">line 3</a>)
+path=max+from+to;} 
+matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+mymat
+mymat
+path =
+    30    14     5
+mymat
+path =
+    30    14     5
+mymat
+{Matrix dimensions must agree.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)">line 3</a>)
+path=max+from+to;
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 8)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',8,0)">line 8</a>)
+path=poisson(max,from,to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+mymat
+输入错误,请重新输入
+{Output argument "path" (and maybe others) not assigned during call to "poisson".
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 8)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',8,0)">line 8</a>)
+path=poisson(max,from,to)} 
+mymat
+输入错误,请重新输入
+path =
+     1
+mymat
+输入错误,请重新输入\n
+请输入各瓶子最大容量
+ [12 8 5]
+请输入各瓶子当前装酒量
+[12 0 0]
+请输入各瓶子分酒量
+  [6 6 0]
+path =
+     1
+poisson
+{Not enough input arguments.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)">line 3</a>)
+if numel(max)~=numel(from)||numel(from)~=numel(to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)
+mymat
+输入错误,请重新输入\n
+请输入各瓶子最大容量
+ {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 6)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',6,0)">line 6</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+path=poisson(max,from,to)} 
+mymat
+path =
+     1
+path =
+     1
+path =
+     1
+path =
+     1
+edit temp.m
+mymat
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diag')" style="font-weight:bold">diag</a>
+First input must be 2-D.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 5)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',5,0)">line 5</a>)
+loop=logical(ones(num)-diag(ones(1:num)))
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+path=poisson(max,from,to)} 
+matlab.internal.language.introspective.errorDocCallback('diag')
+matlab.internal.language.introspective.errorDocCallback('diag')
+matlab.internal.language.introspective.errorDocCallback('diag')
+matlab.internal.language.introspective.errorDocCallback('diag')
+matlab.internal.language.introspective.errorDocCallback('diag')
+diag(1,1,1)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('diag')" style="font-weight:bold">diag</a>
+Too many input arguments.} 
+num=numel(from)
+num =
+     3
+ones(1:num)
+ans(:,:,1) =
+     1     1
+ans(:,:,2) =
+     1     1
+ans(:,:,3) =
+     1     1
+ones()
+ans =
+     1
+mymat
+loop =
+  3×3 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+   0   1   1
+   1   0   1
+   1   1   0
+path =
+     1
+find(loop(2))
+{Undefined function or variable 'loop'.} 
+mymat
+path =
+     1
+mymat
+loop =
+  3×3 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+   0   1   1
+   1   0   1
+   1   1   0
+path =
+     1
+loop
+{Undefined function or variable 'loop'.} 
+loop=logical(ones(num)-eye(num));
+find(loop(2))
+ans =
+     1
+(a,b)=find(loop(1))
+ (a,b)=find(loop(1))
+   ↑
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+(a,b)=find(loop)
+ (a,b)=find(loop)
+   ↑
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+[a,b]=find(loop)
+a =
+     2
+     3
+     1
+     3
+     1
+     2
+b =
+     1
+     1
+     2
+     2
+     3
+     3
+a(1)
+ans =
+     2
+clear
+mymat
+a =
+     2
+     3
+     1
+     3
+     1
+     2
+b =
+     1
+     1
+     2
+     2
+     3
+     3
+{Output argument "path" (and maybe others) not assigned during call to "poisson".
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+path=poisson(max,from,to)} 
+[a,b]=find(max(1))
+a =
+     1
+b =
+     1
+[a,b]=find(max(2))
+a =
+     1
+b =
+     1
+isequal(a,b)
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   1
+isequal(max,from)
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   0
+mymat
+ans =
+     2     2     2
+{Undefined function or variable 'from'.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 10)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',10,0)">line 10</a>)
+    [from,to]=ind2sub(size(from),i);
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+path=poisson(max,from,to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',10,0)
+poisson
+{Not enough input arguments.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 3)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',3,0)">line 3</a>)
+num=numel(max);} 
+mymat
+ans =
+     2     2     2
+{Operands to the || and && operators must be convertible to logical scalar values.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 11)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',11,0)">line 11</a>)
+    if start(from)==0||start(to)==max(to)
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mymat', 'D:\Cache\Github\MATLAB\mymat.m', 5)" style="font-weight:bold">mymat</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',5,0)">line 5</a>)
+path=poisson(max,from,to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',11,0)
+poisson
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',25,1)">File: poisson.m Line: 25 Column: 1
+</a>Illegal use of reserved keyword "end".} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',25,1)
+poisson
+ans =
+     2     2     2
+{Undefined function or variable 'start'.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 13)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',13,0)">line 13</a>)
+    [from,to]=ind2sub(size(start),i);} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',13,0)
+poisson
+ans =
+     2     2     2
+{Operands to the || and && operators must be convertible to logical scalar values.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 14)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)">line 14</a>)
+    if start(from)==0||start(to)==max(to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)
+ind2sub([1,3],2)
+ans =
+     2
+[a,b]=ind2sub([1,3],2)
+a =
+     1
+b =
+     2
+size(start)
+ans =
+     1     3
+[a,b]=ind2sub([1,3],3)
+a =
+     1
+b =
+     3
+[a,b]=ind2sub([1,3],4)
+a =
+     1
+b =
+     4
+poisson
+ans =
+     2     2     2
+{Operands to the || and && operators must be convertible to logical scalar values.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 14)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)">line 14</a>)
+    if start(from)==0||start(to)==max(to)} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)
+clear
+opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)
+poisson
+ans =
+     2     2     2
+{Operands to the || and && operators must be convertible to logical scalar values.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('poisson', 'D:\Cache\Github\MATLAB\poisson.m', 14)" style="font-weight:bold">poisson</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',14,0)">line 14</a>)
+    if start(from)==0||start(to)==max(to)} 
+poisson
+ans =
+     2     2     2
+   0
+   1
+   1
+   1
+   0
+   1
+   1
+   1
+   0
+poisson
+ans =
+     2     2     2
+b =
+  3×1 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+   0
+   1
+   1
+   0
+   1
+   1
+b =
+  3×1 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+   1
+   0
+   1
+   1
+   0
+   1
+b =
+  3×1 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+   1
+   1
+   0
+   1
+   1
+   0
+poisson
+ans =
+     2     2     2
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   0
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   1
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   1
+poisson
+ans =
+     2     2     2
+from =
+     2
+     3
+     1
+     3
+     1
+     2
+poisson
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',14,17)">File: poisson.m Line: 14 Column: 17
+</a>Unexpected MATLAB expression.} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',14,17)
+poisson
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\poisson.m',14,17)">File: poisson.m Line: 14 Column: 17
+</a>Unexpected MATLAB expression.} 
+opentoline('D:\Cache\Github\MATLAB\poisson.m',14,17)
+poisson
+ans =
+     2     2     2
+from=
+     2
+     3
+     1
+     3
+     1
+     2
+poisson
+ans =
+     2     2     2
+mymat
+{Error: <a href="matlab: opentoline('D:\Cache\Github\MATLAB\mymat.m',2,7)">File: mymat.m Line: 2 Column: 7
+</a>Unexpected MATLAB operator.} 
+opentoline('D:\Cache\Github\MATLAB\mymat.m',2,7)
+mymat
+edit task.m
+!git 
+'git' 不是内部或外部命令，也不是可运行的程序 
+或批处理文件。 
+task
+请输入节点数：n=4
+请输入支路数：nl=4
+请输入平衡母线节点号：isb=1
+请输入误差精度：pr=0.00001
+请输入由支路参数形成的矩阵：B1=[1 3 0.02+0.08i 0 1 0;1 4 0.04+0.12i 0 1 0;2 4 0.05+0.14i 0 1 0;3 4 0.04+0.12i 0 1 0]
+请输入由支路参数形成的矩阵：B2=B2=[0 -0.6-0.25i 1.0 0 0 2;0 -0.8-0.35i 1.0 0 0 2;0.4 0 0.95 0.95 0 3;0 0 1.0 1.0 0 1]
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('task', 'D:\Cache\Github\MATLAB\PowerSystemAnalysis\task.m', 6)" style="font-weight:bold">task</a> (<a href="matlab: opentoline('D:\Cache\Github\MATLAB\PowerSystemAnalysis\task.m',6,0)">line 6</a>)
+错误: 等号左侧的表达式不是用于赋值的有效目标。
+} 
+请输入由支路参数形成的矩阵：B2=[0 -0.6-0.25i 1.0 0 0 2;0 -0.8-0.35i 1.0 0 0 2;0.4 0 0.95 0.95 0 3;0 0 1.0 1.0 0 1]
+请输入由节点号及其对地阻抗形成的矩阵：X=[1 0;2 0;3 0;4 0]
+请输入PQ节点数na=2
+迭代次数
+     9
+
+每次没有达到精度要求的有功功率个数为
+     3     3     3     3     3     2     2     2     0
+
+每次没有达到精度要求的无功功率个数为
+     2     2     2     2     1     1     1     0     0
+
+各节点的电压标幺值E为（节点号从小到大排）：
+   0.9641 + 0.0000i   1.0658 + 0.1659i   0.9484 + 0.0546i   0.9978 + 0.0666i
+
+各节点的电压V大小（节点号从小到大排）为：
+    0.9641    1.0787    0.9500    1.0000
+
+各节点的电压相角O（节点号从小到大排）为：
+         0    8.8456    3.2936    3.8196
+
+各节点的功率S（节点号从小到大排）为：
+  -1.1374 + 0.2500i   0.8000 + 0.3500i   0.4000 - 0.6290i   0.0000 + 0.2198i
+
+各条支路的首端功率Sj（顺序同您输入B1时一样）为：
+  -0.5746 + 0.3328i
+
+  -0.5628 - 0.0828i
+
+   0.8000 + 0.3500i
+
+  -0.1841 - 0.3341i
+
+各条支路的末端功率Sj（顺序同您输入B1时一样）为：
+   0.5841 - 0.2948i
+
+   0.5767 + 0.1246i
+
+  -0.7672 - 0.2583i
+
+   0.1905 + 0.3535i
+
+各条支路的功率损耗DS（顺序同您输入B1时一样）为：
+   0.0095 + 0.0379i
+
+   0.0139 + 0.0418i
+
+   0.0328 + 0.0917i
+
+   0.0065 + 0.0194i
+
+以下是每次迭代后各节点的电压值（如图所示）
+task
+请输入节点数：n=4
+请输入支路数：nl=4
+请输入平衡母线节点号：isb=1
+请输入误差精度：pr=0.00001
+请输入由支路参数形成的矩阵：B1=[1 3 0.02+0.08i 0 1 0;1 4 0.04+0.12i 0 1 0;2 4 0.05+0.14i 0 1 0;3 4 0.04+0.12i 0 1 0]
+请输入由支路参数形成的矩阵：B2=[0 -0.6-0.25i 1.0 0 0 2;0 -0.8-0.35i 1.0 0 0 2;0.4 0 0.95 0.95 0 3;0 0 1.0 1.0 0 1]
+请输入由节点号及其对地阻抗形成的矩阵：X=[1 0;2 0;3 0;4 0]
+请输入PQ节点数na=2
+迭代次数
+     9
+
+每次没有达到精度要求的有功功率个数为
+     3     3     3     3     3     2     2     2     0
+
+每次没有达到精度要求的无功功率个数为
+     2     2     2     2     1     1     1     0     0
+
+各节点的电压标幺值E为（节点号从小到大排）：
+   0.9641 + 0.0000i   1.0658 + 0.1659i   0.9484 + 0.0546i   0.9978 + 0.0666i
+
+各节点的电压V大小（节点号从小到大排）为：
+    0.9641    1.0787    0.9500    1.0000
+
+各节点的电压相角O（节点号从小到大排）为：
+         0    8.8456    3.2936    3.8196
+
+各节点的功率S（节点号从小到大排）为：
+  -1.1374 + 0.2500i   0.8000 + 0.3500i   0.4000 - 0.6290i   0.0000 + 0.2198i
+
+各条支路的首端功率Sj（顺序同您输入B1时一样）为：
+  -0.5746 + 0.3328i
+
+  -0.5628 - 0.0828i
+
+   0.8000 + 0.3500i
+
+  -0.1841 - 0.3341i
+
+各条支路的末端功率Sj（顺序同您输入B1时一样）为：
+   0.5841 - 0.2948i
+
+   0.5767 + 0.1246i
+
+  -0.7672 - 0.2583i
+
+   0.1905 + 0.3535i
+
+各条支路的功率损耗DS（顺序同您输入B1时一样）为：
+   0.0095 + 0.0379i
+
+   0.0139 + 0.0418i
+
+   0.0328 + 0.0917i
+
+   0.0065 + 0.0194i
+
+以下是每次迭代后各节点的电压值（如图所示）
+task
+请输入节点数：n=4
+请输入支路数：nl=4
+请输入平衡母线节点号：isb=1
+请输入误差精度：pr=0.00001
+请输入由支路参数形成的矩阵：B1=[1 3 0.02+0.08i 0 1 0;1 4 0.04+0.12i 0 1 0;2 4 0.05+0.14i 0 1 0;3 4 0.04+0.12i 0 1 0]
+请输入由支路参数形成的矩阵：B2=[0 -0.6-0.25i 1.0 0 0 2;0 -0.8-0.35i 1.0 0 0 2;0.4 0 0.95 0.95 0 3;0 0 1.0 1.0 0 1]
+请输入由节点号及其对地阻抗形成的矩阵：X=[1 0;2 0;3 0;4 0]
+请输入PQ节点数na=2
+迭代次数
+     9
+
+每次没有达到精度要求的有功功率个数为
+     3     3     3     3     3     2     2     2     0
+
+每次没有达到精度要求的无功功率个数为
+     2     2     2     2     1     1     1     0     0
+
+各节点的电压标幺值E为（节点号从小到大排）：
+    0.9641    1.7293    1.1667    1.2642
+
+各节点的电压V大小（节点号从小到大排）为：
+    0.9641    1.0787    0.9500    1.0000
+
+各节点的电压相角O（节点号从小到大排）为：
+         0    8.8456    3.2936    3.8196
+
+各节点的功率S（节点号从小到大排）为：
+  -1.2979 - 4.4684i   1.8196 + 5.0948i   0.4110 + 1.9282i  -0.0736 + 0.0453i
+
+各条支路的首端功率Sj（顺序同您输入B1时一样）为：
+  -0.5746 - 2.2983i
+
+  -0.7234 - 2.1701i
+
+   1.8196 + 5.0948i
+
+  -0.2844 - 0.8531i
+
+各条支路的末端功率Sj（顺序同您输入B1时一样）为：
+   0.6953 + 2.7813i
+
+   0.9485 + 2.8456i
+
+  -1.3302 - 3.7246i
+
+   0.3081 + 0.9244i
+
+各条支路的功率损耗DS（顺序同您输入B1时一样）为：
+   0.1208 + 0.4830i
+
+   0.2252 + 0.6755i
+
+   0.4893 + 1.3702i
+
+   0.0238 + 0.0713i
+
+以下是每次迭代后各节点的电压值（如图所示）
+task
+请输入节点数：n=4
+请输入支路数：nl=4
+请输入平衡母线节点号：isb=1
+请输入误差精度：pr=0.00001
+请输入由支路参数形成的矩阵：B1=[1 3 0.02+0.08i 0 1 0;1 4 0.04+0.12i 0 1 0;2 4 0.05+0.14i 0 1 0;3 4 0.04+0.12i 0 1 0]
+请输入由支路参数形成的矩阵：B2=[0 -0.6-0.25i 1.0 0 0 2;0 -0.8-0.35i 1.0 0 0 2;0.4 0 0.95 0.95 0 3;0 0 1.0 1.0 0 1]
+请输入由节点号及其对地阻抗形成的矩阵：X=[1 0;2 0;3 0;4 0]
+请输入PQ节点数na=2
+迭代次数
+     9
+
+每次没有达到精度要求的有功功率个数为
+     3     3     3     3     3     2     2     2     0
+
+每次没有达到精度要求的无功功率个数为
+     2     2     2     2     1     1     1     0     0
+
+各节点的电压标幺值E为（节点号从小到大排）：
+    0.9641    1.7293    1.1667    1.2642
+
+各节点的电压V大小（节点号从小到大排）为：
+    0.9641    1.0787    0.9500    1.0000
+
+各节点的电压相角O（节点号从小到大排）为：
+         0    8.8456    3.2936    3.8196
+
+各节点的功率S（节点号从小到大排）为：
+  -1.2979 - 4.4684i   1.8196 + 5.0948i   0.4110 + 1.9282i  -0.0736 + 0.0453i
+
+各条支路的首端功率Sj（顺序同您输入B1时一样）为：
+  -0.5746 - 2.2983i
+
+  -0.7234 - 2.1701i
+
+   1.8196 + 5.0948i
+
+  -0.2844 - 0.8531i
+
+各条支路的末端功率Sj（顺序同您输入B1时一样）为：
+   0.6953 + 2.7813i
+
+   0.9485 + 2.8456i
+
+  -1.3302 - 3.7246i
+
+   0.3081 + 0.9244i
+
+各条支路的功率损耗DS（顺序同您输入B1时一样）为：
+   0.1208 + 0.4830i
+
+   0.2252 + 0.6755i
+
+   0.4893 + 1.3702i
+
+   0.0238 + 0.0713i
+
+以下是每次迭代后各节点的电压值（如图所示）

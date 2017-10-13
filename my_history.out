@@ -1,0 +1,32 @@
+delete onemat.mat
+diary off
+save mymat.mat
+edit mymat
+namelengthmax
+ans =
+    63
+iskeyword is
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   0
+iskeyword for
+ans =
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+   1
+exist mytext
+ans =
+     1
+exist myword
+ans =
+     0
+which myword
+'myword' not found.
+which mytext
+mytext is a variable.
+which mymat
+D:\Cache\Github\MATLAB\mymat.m
+which mymat.mat
+D:\Cache\Github\MATLAB\mymat.mat
+str=which(mytext)
+str =
+  0¡Á0 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
